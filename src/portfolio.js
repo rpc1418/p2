@@ -66,58 +66,153 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+     
+      
+          skillName: "C",
+          fontAwesomeClassname: "fas fa-code"
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "fas fa-laptop-code"
+        },
+        {
+          skillName: "dart",
+          fontAwesomeClassname: "fab fa-apple"
+        },
+        {
+          skillName: "python",
+          fontAwesomeClassname: "fab fa-python"
+        },
+        {
+          skillName: "pandas",
+          fontAwesomeClassname: "fas fa-database"
+        },
+        {
+          skillName: "numpy",
+          fontAwesomeClassname: "fas fa-cubes"
+        },
+        {
+          skillName: "opencv",
+          fontAwesomeClassname: "fas fa-eye"
+        },
+        {
+          skillName: "pytorch",
+          fontAwesomeClassname: "fas fa-brain"
+        },
+        {
+          skillName: "pyspark",
+          fontAwesomeClassname: "fas fa-cloud"
+        },
+        {
+          skillName: "scikit-learn",
+          fontAwesomeClassname: "fas fa-graduation-cap"
+        },
+        {
+          skillName: "tensorflow",
+          fontAwesomeClassname: "fas fa-network-wired"
+        },
+        {
+          skillName: "keras",
+          fontAwesomeClassname: "fas fa-brain"
+        },
+        {
+          skillName: "R",
+          fontAwesomeClassname: "fab fa-r-project"
+        },
+        {
+          skillName: "SQL",
+          fontAwesomeClassname: "fas fa-database"
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "fab fa-java"
+        },
+        {
+          skillName: "verilog",
+          fontAwesomeClassname: "fas fa-microchip"
+        },
+        {
+          skillName: "shell",
+          fontAwesomeClassname: "fas fa-terminal"
+        },
+        {
+          skillName: "embedded-c",
+          fontAwesomeClassname: "fas fa-microchip"
+        },
+        {
+          skillName: "git",
+          fontAwesomeClassname: "fab fa-git"
+        },
+        {
+          skillName: "vs-code",
+          fontAwesomeClassname: "fas fa-code"
+        },
+        {
+          skillName: "pycharm",
+          fontAwesomeClassname: "fas fa-code"
+        },
+        {
+          skillName: "jira",
+          fontAwesomeClassname: "fab fa-jira"
+        },
+        {
+          skillName: "confluence",
+          fontAwesomeClassname: "fab fa-confluence"
+        },
+        {
+          skillName: "notebooks",
+          fontAwesomeClassname: "fas fa-book"
+        },
+        {
+          skillName: "ZYNQ FPGA",
+          fontAwesomeClassname: "fas fa-microchip"
+        },
+        {
+          skillName: "STM32",
+          fontAwesomeClassname: "fas fa-microchip"
+        },
+        {
+          skillName: "vivado",
+          fontAwesomeClassname: "fas fa-microchip"
+        },
+        {
+          skillName: "vitis",
+          fontAwesomeClassname: "fas fa-microchip"
+        },
+        {
+          skillName: "linux",
+          fontAwesomeClassname: "fab fa-linux"
+        },
+        {
+          skillName: "windows",
+          fontAwesomeClassname: "fab fa-windows"
+        },
+        {
+          skillName: "macos",
+          fontAwesomeClassname: "fab fa-apple"
+        },
+        {
+          skillName: "jtag",
+          fontAwesomeClassname: "fas fa-plug"
+        },
+        {
+          skillName: "uart",
+          fontAwesomeClassname: "fas fa-microchip"
+        },
+        {
+          skillName: "spi",
+          fontAwesomeClassname: "fas fa-signal"
+        },
+        {
+          skillName: "i2c",
+          fontAwesomeClassname: "fas fa-link"
+        },
+        {
+          skillName: "vga",
+          fontAwesomeClassname: "fas fa-tv"
+        }
+      ],
+      
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -128,7 +223,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Vellore Institute of Technology, Chennai",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/vit.png"),
       subHeader: "Bacehlors in Electronics and Computer Engineering",
       duration: "September 2021 - Jully 2025",
       desc: "CGPA:8.85"
@@ -139,7 +234,7 @@ const educationInfo = {
     },
     {
       schoolName: "La Sagesse Academy, Indore",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/lsa.png"),
       subHeader: "10th and 12th",
       duration: "2018 - 2021",
       desc: "Completed 10th Standard with 89% and 12th in Physics Chemistry Maths IP with 93.4%."
@@ -154,16 +249,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Development", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Embeded/RTL Coding",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "AI/ML",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -240,7 +335,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -256,7 +351,7 @@ const achievementSection = {
       title: "Microsoft Certified Azure- Data Fundamentals",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/codeInLogo.png"),
       imageAlt: "AZURE",
       footerLink: [
         {
