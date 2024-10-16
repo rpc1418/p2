@@ -131,7 +131,7 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Bacehlors in Electronics and Computer Engineering",
       duration: "September 2021 - Jully 2025",
-      desc: "CGPA:8.85",
+      desc: "CGPA:8.85"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -142,7 +142,7 @@ const educationInfo = {
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "10th and 12th",
       duration: "2018 - 2021",
-      desc: "Completed 10th Standard with 89% and 12th in Physics Chemistry Maths IP with 93.4%.",
+      desc: "Completed 10th Standard with 89% and 12th in Physics Chemistry Maths IP with 93.4%."
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -174,7 +174,6 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    
     {
       role: "NLP Project Intern",
       company: "Samsung",
@@ -187,7 +186,7 @@ const workExperiences = {
       company: "IIT, Roorkee",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "May 2024 – June 2024",
-      desc: "Developed a Windows app using Flutter for trajectory extraction with YOLO and conflict analysis, inferring to models like LSTM, Transformer, GNN, etc., for classification. Additionally, Created a Linux app for real-time pothole detection on a Jetson board.",
+      desc: "Developed a Windows app using Flutter for trajectory extraction with YOLO and conflict analysis, inferring to models like LSTM, Transformer, GNN, etc., for classification. Additionally, Created a Linux app for real-time pothole detection on a Jetson board."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -263,7 +262,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1zprwH2vpjkewIoZA4CMyuKubXW2nFHan/view?usp=sharing"
-        },
+        }
         // {
         //   name: "Award Letter",
         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"

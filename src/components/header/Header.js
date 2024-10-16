@@ -73,7 +73,13 @@ function Header() {
           )} */}
           {viewResume && (
             <li>
-              <a href={greeting.resumeLink} target="_blank" rel="noopener noreferrer">Resume</a>
+              <a
+                href={greeting.resumeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
             </li>
           )}
           <li>
